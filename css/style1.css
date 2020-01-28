@@ -106,6 +106,24 @@ h2 {
     align-content: center;
 }
 
+.cloud {
+    color: #75B2F5
+}
+
+.version-control {
+    list-style-image: url(https://images.app.goo.gl/FL3i6wgwfzKS9b73A);
+}
+
+.ide {
+    list-style-image: url(https://images.app.goo.gl/96jhqGsm7W1Abqkn6);
+}
+
+.testing {
+    list-style-image: url(https://images.app.goo.gl/xxWVZWezp9jds2iG7);
+}
+
+.
+
 #tools>ul>li {
     font-family:'Marcellus', sans-serif;
 }
