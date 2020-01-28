@@ -89,6 +89,32 @@ h2 {
     align-content: center;
 }
 
+#tools-list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#tools {
+    background-color: #f9f7f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#tools>ul>li {
+    font-family:'Marcellus', sans-serif;
+}
+
+#tools>ul>li>.name {
+    font-family: 'Marcellus', sans-serif;
+    font-size: 1.3em;
+}
+
 .name {
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
