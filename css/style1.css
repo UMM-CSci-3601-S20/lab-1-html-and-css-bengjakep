@@ -114,6 +114,9 @@ h2 {
     font-family: 'Marcellus', sans-serif;
     font-size: 1.3em;
 }
+#tools>ul>li>.url {
+    display:none;
+}
 
 .name {
   font-family: 'Dancing Script', cursive;
