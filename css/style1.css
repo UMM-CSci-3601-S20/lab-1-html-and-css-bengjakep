@@ -111,18 +111,18 @@ h2 {
 }
 
 .version-control {
-    list-style-image: url(https://images.app.goo.gl/FL3i6wgwfzKS9b73A);
+    list-style: circle url("../assets/images/graph-icon.png");
 }
 
 .ide {
-    list-style-image: url(https://images.app.goo.gl/96jhqGsm7W1Abqkn6);
+    list-style: circle url("../assets/images/document-icon.png");
 }
 
 .testing {
-    list-style-image: url(https://images.app.goo.gl/xxWVZWezp9jds2iG7);
+    list-style: circle url("../assets/images/wrench-icon.png");
 }
 
-.
+
 
 #tools>ul>li {
     font-family:'Marcellus', sans-serif;
