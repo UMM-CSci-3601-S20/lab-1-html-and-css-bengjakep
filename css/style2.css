@@ -12,7 +12,18 @@ body{
     background-image: url(https://morris.umn.edu/sites/morris.umn.edu/themes/oc_child/images/logo-desktop.png?1489178744);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: #FFDE7A;
+
 }
+
+a:link {
+    color: #707070
+}
+
+a:visited {
+    color: #494949
+}
+
 
 
 /*
@@ -27,7 +38,6 @@ body{
       max-width: 53em;
     }
 }
-
 
 
 
