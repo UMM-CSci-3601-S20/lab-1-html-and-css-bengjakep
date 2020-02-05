@@ -21,16 +21,20 @@ use float to make something locate itself on the right or left
     #faculty > ul > li {
         display: default;
     }
+
 }
 
-
-body{
+/*Changes the color scheme.  This uses grouping.*/
+body, style{
     padding: 30px;
     background-color: #7a0019;
     color: #FFDE7A;
 
 }
 
+
+/*These two rules change the link colors to better match up with the color scheme of the rest
+ of the page in order to improve readability.*/
 a:link {
     color: #707070
 }
@@ -39,7 +43,9 @@ a:visited {
     color: #494949
 }
 
-#faculty > ul > li {
+
+/* Makes the faculty images display horizontally.  This takes advantage of nesting.*/
+#faculty ul li {
     display:inline-block;
     list-style-type: none;
 }
@@ -52,22 +58,26 @@ a:visited {
     text-align: right;
 }
 
+/* Changes the color behind tools that use the cloud by using the cloud type.*/
+.cloud {
+    background:darkblue;
+}
+
 #style li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link background color to #000 (black) on hover */
 #style li a:hover {
     background-color: #000;
 }
 
+/* Adds a floating header image which scrolls with the page by taking advantage of the style id.*/
 #style {
     position: fixed;
-    background-color: #7A0019;
     background-image: url(../assets/images/morris-logo.png);
     background-repeat: no-repeat;
     left: 0;
@@ -77,12 +87,4 @@ a:visited {
 }
 
 
-/*
-Possible designs:
 
- - Partial transparency, go to full transparency on hover
- - Background image which stays still while scrolling
- - Change boxes-stick to side? scrolling menu staying alongside?
- - Keep maroon and gold if possible.
- -
-*/
