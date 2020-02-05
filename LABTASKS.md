@@ -173,4 +173,4 @@ Please read carefully the list of technical requirements below and follow it pre
 - In addition to the minimum of 5 CSS rules with comments,
   your CSS you must use _and point out in comments somewhere_ in your edited style
   files each of the following: **grouping, nesting, a class, and an id**.
-    > Pro tip: If you play with grouping and nesting after you've already written a bit of CSS, it'll be easier to understand why it's so cool. A good explanation of grouping and nesting can be found [here](http://lmgtfy.com/?q=grouping+and+nesting+css&l=1). Also, you can see some general info on CSS selectors [here](http://www.w3schools.com/cssref/css_selectors.asp).
+    > Pro tip: If you play with grouping and nesting after you've already written a bit of CSS, it'll be easier to understand why it's so cool. A good explanation of grouping and nesting can be found [here](https://www.htmldog.com/guides/css/intermediate/grouping/). Also, you can see some general info on CSS selectors [here](http://www.w3schools.com/cssref/css_selectors.asp).
